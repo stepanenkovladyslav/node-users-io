@@ -1,6 +1,5 @@
 const http = require("http");
 const fs = require("fs");
-const { CLIENT_RENEG_LIMIT } = require("tls");
 const app = http
 	.createServer((req, res) => {
 		res.setHeader("Content-Type", "application/json");
